@@ -152,7 +152,8 @@ int main()
 		//início das opções
 		printf("\t1 - Resgistrar nomes\n");
 		printf("\t2 - Consultar nomes\n");
-		printf("\t3 - Deletar nomes\n\n");
+		printf("\t3 - Deletar nomes\n");
+		printf("\t4 - Sair\n\n");
 		printf("Digite a opção: ");
 		//fim das opções
 		//fim do menu
@@ -174,6 +175,11 @@ int main()
 			
 			case 3:
 			deletar(); //chamada da função de exclusão
+			break;
+			
+			case 4:
+			printf("Obrigado por utilizar o sistema.\n");
+			return 0;
 			break;
 			
 			default:
